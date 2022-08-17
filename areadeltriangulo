@@ -1,0 +1,16 @@
+
+#include "stdafx.h"
+#include <iostream> 
+#include "conio.h"
+using namespace  std;
+
+void main ()	{
+	//Declarar variables
+	  float base,altura,Area ; //todas las instrucciones terminan con ;
+	  cout<<"Ingresar la base";cin>> base;
+	  cout<< "Ingresar la altura" 
+	  Area=(base*altura)/2;
+	  cout<<"El area es: " <<Area;
+	  getch();
+}
+
