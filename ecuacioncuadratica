@@ -1,0 +1,21 @@
+#include "stdafx.h"
+#include<iostream>
+#include <math.h>
+
+using namespace std;
+int main () 
+
+{
+	float a,b,c,x1,x2;
+	cout<<"Ingresar la cantidad de a:" <<endl;
+	cin >> a,
+    cout <<"Ingresar la cantidad de b:" <<endl;
+	cin >> b;
+	cout << "Ingresar la cantidad de c:"<<endl;
+	cin >> c;
+	x1= ((-b+sqrt(b*b-4*a*c))/2*a);
+	x2= ((-b-sqrt(b*b-4*a*c))/2*a);
+	cout<< "El resultado de x1:" <<x1<<endl;
+	cout<< "El resultado de x2:" <<x2<<endl;
+
+}
