@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include <iostream>
+#include "math.h"
+#include "conio.h"
+
+using namespace std;
+
+void main() 
+{
+	float x1,x2,y1,y2,D;
+    cout<<"Ingresar x1 y y1: ";
+	cin>> x1;
+	cin>> y1;
+	cout <<"Ingresar x2 y y2: ";
+	cin>> x2;
+	cin>> y2;
+	D=sqrt(pow(x2-x1, 2)+pow(y2,2));
+	cout<<"El valor de D es: "<<D;
+	getch();
+	
+}
+
