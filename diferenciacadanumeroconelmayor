@@ -1,0 +1,36 @@
+{
+	     float c1,c2,c3,promedio,diferencia,may,men; 
+		 cout<<"Ingresar cantidad:";
+		 cin>>c1;
+		 cout<< "Ingresar cantidad:";
+		 cin >>c2;
+		 cout<< "Ingresar cantidad:";
+		 cin >>c3;
+		 may=c1;
+		 men=c1;
+		 if (may<c2)
+			 may=c2;
+		 if (men>c2)
+			 men=c2;
+		 if (may<c3)
+			 may=c3;
+		 if (men>c3)
+			 men=c3;
+
+		 diferencia=may-men;
+		 promedio=(c1+c2+c3)/3;
+		 cout<< "La diferencia del primer numero es c1 con el promedio: " <<c1-promedio<<endl;
+	cout<< "La diferencia del primer numero es c2 con el promedio: "<<c2-promedio<<endl;
+	cout<< "La diferencia del primer numero es c3 con el promedio: "<<c3-promedio<<endl;
+	cout<< "La diferencia del mayor con el menor es: "<<diferencia<<endl;
+	cout<< "El promedio es: "<<promedio;
+	
+	cout<< "La diferencia del mayor con el menor es: ", diferencia
+	cout<< "El promedio es: ", promedio 
+	
+		 cout<<"La diferencia del mayor con el menor es: " <<diferencia<<endl;
+		 cout<<"El promedio es: " <<promedio;
+
+		 getch();
+}
+
