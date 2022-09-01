@@ -1,0 +1,77 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+
+using namespace std;
+void main()
+{
+	     float a,b,c,P,F,parciales,examenfinal,proyectofinal,mayornota,menornota,notafinal,E1,E2,E3,notafinal1,notafinal2,notafinal3,promedio,diferencia,may,men,promedio; 
+		 cout<<"Ingrese la nota de su primer parcial E1" <<endl;
+		 cin>>a;
+		 cout<<"Ingrese la nota de su segundo parcial E1" <<endl;
+		 cin>>b;
+		 cout<<"Ingrese la nota de su tercer parcial E1 " <<endl;
+		 cin>>c;
+		 cout<<"Ingrese la nota de su examen final E1" <<endl;
+		 cin>>P;
+		 cout<<"Ingrese la nota de su proyecto final E1" << endl;
+		 cin>>F;
+		 parciales=((a+b+c)/3)*0.40;
+		 examenfinal=P*0.40;
+		 proyectofinal=F*0.20;
+		 notafinal1=parciales+examenfinal+proyectofinal;
+		 cout<<"Tu nota final E1 es: " << notafinal<<endl;
+
+		  cout<<"Ingrese la nota de su primer parcial E2" <<endl;
+		 cin>>a;
+		 cout<<"Ingrese la nota de su segundo parcial E2" <<endl;
+		 cin>>b;
+		 cout<<"Ingrese la nota de su tercer parcial E2 " <<endl;
+		 cin>>c;
+		 cout<<"Ingrese la nota de su examen final E2" <<endl;
+		 cin>>P;
+		 cout<<"Ingrese la nota de su proyecto final E2" << endl;
+		 cin>>F;
+		 parciales=((a+b+c)/3)*0.40;
+		 examenfinal=P*0.40;
+		 proyectofinal=F*0.20;
+		 notafinal2=parciales+examenfinal+proyectofinal;
+		 cout<<"Tu nota final E2 es: " << notafinal<<endl;
+
+		 cout<<"Ingrese la nota de su primer parcial E3" <<endl;
+		 cin>>a;
+		 cout<<"Ingrese la nota de su segundo parcial E3" <<endl;
+		 cin>>b;
+		 cout<<"Ingrese la nota de su tercer parcial E3 " <<endl;
+		 cin>>c;
+		 cout<<"Ingrese la nota de su examen final E3" <<endl;
+		 cin>>P;
+		 cout<<"Ingrese la nota de su proyecto final E3" << endl;
+		 cin>>F;
+		 parciales=((a+b+c)/3)*0.40;
+		 examenfinal=P*0.40;
+		 proyectofinal=F*0.20;
+		 notafinal3=parciales+examenfinal+proyectofinal;
+		 cout<<"Tu nota final E3 es: " << notafinal<<endl;
+		 if (mayornota<E1)
+			mayornota=E1;
+		if (menornota>E1)
+			menornota=E1;
+	    if (mayornota<E2)
+		    mayornota=E2;
+		if (menornota>E2)
+		    menornota=E2;
+	    if (mayornota<E3)
+		    mayornota=E3;
+		if (menornota>E3)
+			menornota=E3;
+		diferencia=may-men
+		promedio =(notafinal1+notafinal2+notafinal3)/3;
+		cout<< "La diferencia del mayor con el menor es: "<<diferencia<<endl;
+		cout<< "La mayor nota  es: "<<mayornota<<endl;
+		cout<<" La menor nota es : "<<menornota<<;
+
+
+		 getch();
+}
