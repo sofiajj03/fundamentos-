@@ -1,0 +1,17 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+void main () {
+
+   float lado,area;
+   cout<<"Ingrese el lado1"<<endl;
+   cin>> lado;
+   area=lado*lado;
+   cout<<"El area del cuadro es: " <<area;
+   getch();
+
+}
+
