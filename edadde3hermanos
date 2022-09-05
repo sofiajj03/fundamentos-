@@ -1,0 +1,42 @@
+#include "stdafx.h"
+#include "conio.h"
+#include <iostream>
+
+using namespace std;
+
+void main () {
+
+   float  hermano1,hermano2,hermano3,mayor,menor,hermanomenor,hermanomayor,may,men;
+   cout<<"Ingresar edad de hermano1";
+   cin>> hermano1;
+   cout<<"Ingresar edad de hermano2";
+   cin>> hermano2;
+   cout<<"Ingresar edad de hermano";
+   cin>> hermano3;
+   may=hermano1;
+   men=hermano1;
+   if (may<hermano1)
+	  may=hermano1;
+
+   if (men>hermano1)
+	  men=hermano1;
+
+   if (may<hermano2)
+	  may=hermano2;
+
+   if (men>hermano2)
+	  men=hermano2;
+
+   if (may<hermano3)
+	  may=hermano3;
+
+   if (men>hermano3)
+	  men=hermano3;
+
+   cout<<" El mas grande es:  " <<mayor;
+   cout<<" El mas pequeño es:  "<<menor;
+
+
+   getch();
+
+}
