@@ -1,0 +1,19 @@
+#include <iostream>
+#define max 3
+
+using namespace std;
+
+int main(){
+    float notas[max][max], suma=0, prom=0;
+    for(int i=0; i<max; i++){
+        for(int j =0; j<max; j++){
+            cout<<"Ingresar las notas"<< i+1<<","<<j+1<<endl;
+            cin>>notas[i][j];
+            suma= suma + notas[i][j];
+        }
+    }
+    prom=suma/(max*max);
+    cout<<"La suma es:"<<suma<<endl;
+    cout<<"El promedio es: "<<prom<<endl;
+    return 0;
+}
