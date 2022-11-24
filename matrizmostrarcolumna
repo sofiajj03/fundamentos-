@@ -1,0 +1,64 @@
+#include <iostream>
+#include <conio.h>
+#include "stdlib.h"
+#define MAX 20
+
+using namespace std;
+
+void cargarmatriz(int MATRIZ[MAX][MAX], int m, int n);
+void mostrarmatriz(int MATRIZ[MAX][MAX], int m, int n);
+void mostrarcolumna(int MATRIZ[MAX][MAX], int m, int n);
+
+int main()
+{
+	int matriz[MAX][MAX],fila,columna;
+    cout<<"Ingrese el numero de filas: "<<endl;
+    cin>>fila;
+    cout<<"Ingrese el numero de columnas: "<<endl;
+    cin>>columna;
+    cout<<"--------------------"<<endl;
+    cout<<"Ingrese los valores"<<endl;
+    cout<<"--------------------"<<endl;
+    cargarmatriz(matriz,fila,columna);
+    cout<<"--------------------"<<endl;
+    cout<<"Mostrando Matriz"<<endl;
+    cout<<"--------------------"<<endl;
+    mostrarmatriz(matriz,fila,columna);
+    cout<<"--------------------"<<endl;
+    cout<<"MOSTRANDO LA COLUMNA"<<endl;
+    mostrarcolumna(matriz,fila,columna);
+    
+    getch();
+
+}
+
+void cargarmatriz(int MATRIZ[MAX][MAX], int m, int n)
+{
+	for(int f=0;f<m;f++)
+	{
+		for(int c=0;c<n;c++)
+		{
+			cout<<"MATRIZ ["<<f<<"]"<<"["<<c<<"] ="<<endl;
+			cin>>MATRIZ[f][c];
+		}
+	}
+}
+void mostrarmatriz(int MATRIZ[MAX][MAX], int m, int n)
+{
+	for(int f=0; f<m;f++)
+	{
+		for(int c=0;c<n;c++)
+		{
+			cout<<MATRIZ[f][c]<<"\t";
+		}
+		cout<<endl;
+	}
+}
+void mostrarcolumna(int MATRIZ[MAX][MAX], int m, int n)
+{
+	for(int c=0;c<n;c++)
+	{
+		cout<<MATRIZ[c][c]<<"\t";
+	}
+	cout<<endl;
+}
